@@ -11,13 +11,6 @@ class RepositorioDeAlunoEmMemoria implements RepositorioDeAluno
 {
     private array $alunos = []; 
 
-    private \PDO $conexao;
-
-    public function __construct(\PDO $conexao)
-    {
-        $this->conexao = $conexao;
-    }
-
     public function adicionar(Aluno $aluno): void
     {
         $this->alunos[] = $aluno;
