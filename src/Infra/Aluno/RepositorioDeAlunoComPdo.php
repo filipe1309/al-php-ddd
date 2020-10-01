@@ -85,8 +85,9 @@ class RepositorioDeAlunoComPdo implements RepositorioDeAluno
                 );
             }
 
-            // BUG
-            $alunos[$dadosAluno['cpf']]->adicionarTelefone($dadosAluno['ddd'], $dadosAluno['numero_telefone']);
+            if ($dadosAluno['ddd'] !== null && $dadosAluno['numero_telefone'] !== null) {
+                $alunos[$dadosAluno['cpf']]->adicionarTelefone($dadosAluno['ddd'], $dadosAluno['numero_telefone']);
+            }
         }
 
         return array_values($alunos);
