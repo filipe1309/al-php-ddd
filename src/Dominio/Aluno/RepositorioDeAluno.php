@@ -2,8 +2,8 @@
 
 namespace Alura\Arquitetura\Dominio\Aluno;
 
-use Alura\Arquitetura\Cpf;
-use Alura\Arquitetura\Email;
+use Alura\Arquitetura\Dominio\Cpf;
+use Alura\Arquitetura\Dominio\Email;
 
 interface RepositorioDeAluno
 {
