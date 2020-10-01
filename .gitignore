@@ -3,3 +3,4 @@ db.sqlite
 testdox.*
 .phpunit.result.cache
 *.sqlite
+.vscode
