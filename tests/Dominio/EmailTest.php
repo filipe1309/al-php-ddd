@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\Tests;
+namespace Alura\Arquitetura\Tests\Dominio;
 
 use Alura\Arquitetura\Dominio\Email;
 use PHPUnit\Framework\TestCase;

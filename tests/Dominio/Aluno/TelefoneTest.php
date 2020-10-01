@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\Tests\Aluno;
+namespace Alura\Arquitetura\Tests\Dominio\Aluno;
 
 use Alura\Arquitetura\Dominio\Aluno\Telefone;
 use PHPUnit\Framework\TestCase;
