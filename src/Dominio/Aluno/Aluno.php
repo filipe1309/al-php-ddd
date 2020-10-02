@@ -37,7 +37,7 @@ class Aluno
         return $this;
     }
 
-    public function cpf()
+    public function cpf(): Cpf
     {
         return $this->cpf;
     }
