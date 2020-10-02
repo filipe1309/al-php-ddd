@@ -1,9 +1,9 @@
 <?php
 
-namespace Alura\Arquitetura\Dominio\Aluno;
+namespace Alura\Arquitetura\Academico\Dominio\Aluno;
 
-use Alura\Arquitetura\Dominio\Cpf;
-use Alura\Arquitetura\Dominio\Email;
+use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Academico\Dominio\Email;
 
 class Aluno
 {

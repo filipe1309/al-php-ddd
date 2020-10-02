@@ -1,9 +1,9 @@
 <?php
 
-namespace Alura\Arquitetura\Infra\Indicacao;
+namespace Alura\Arquitetura\Academico\Infra\Indicacao;
 
-use Alura\Arquitetura\Dominio\Aluno\Aluno;
-use Alura\Arquitetura\Aplicacao\Indicacao\EnviaEmailIndicacao;
+use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
+use Alura\Arquitetura\Academico\Aplicacao\Indicacao\EnviaEmailIndicacao;
 
 class EnviaEmailIndicacaoPhp implements EnviaEmailIndicacao
 {

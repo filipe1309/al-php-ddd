@@ -1,12 +1,12 @@
 <?php
 
-namespace Alura\Arquitetura\Infra\Aluno;
+namespace Alura\Arquitetura\Academico\Infra\Aluno;
 
-use Alura\Arquitetura\Dominio\Cpf;
-use Alura\Arquitetura\Dominio\Email;
-use Alura\Arquitetura\Dominio\Aluno\RepositorioDeAluno;
-use Alura\Arquitetura\Dominio\Aluno\Aluno;
-use Alura\Arquitetura\Dominio\Aluno\AlunoNaoEncontradoException;
+use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Academico\Dominio\Email;
+use Alura\Arquitetura\Academico\Dominio\Aluno\RepositorioDeAluno;
+use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
+use Alura\Arquitetura\Academico\Dominio\Aluno\AlunoNaoEncontradoException;
 
 class RepositorioDeAlunoComPdo implements RepositorioDeAluno
 {

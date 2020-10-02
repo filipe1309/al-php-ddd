@@ -1,10 +1,10 @@
 <?php
 
-namespace Alura\Arquitetura\Dominio\Aluno;
+namespace Alura\Arquitetura\Academico\Dominio\Aluno;
 
-use Alura\Arquitetura\Dominio\Cpf;
-use Alura\Arquitetura\Dominio\OuvinteDeEvento;
-use Alura\Arquitetura\Dominio\Evento;
+use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Academico\Dominio\OuvinteDeEvento;
+use Alura\Arquitetura\Academico\Dominio\Evento;
 
 class LogDeAlunoMatriculado extends OuvinteDeEvento
 {

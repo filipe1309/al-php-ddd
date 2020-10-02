@@ -2,9 +2,9 @@
 
 namespace Alura\Arquitetura\Tests\Dominio;
 
-use Alura\Arquitetura\Dominio\Cpf;
-use Alura\Arquitetura\Dominio\Aluno\Aluno;
-use Alura\Arquitetura\Infra\Aluno\RepositorioDeAlunoComPdo;
+use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
+use Alura\Arquitetura\Academico\Infra\Aluno\RepositorioDeAlunoComPdo;
 use PHPUnit\Framework\TestCase;
 
 class RepositorioDeAlunoComPdoTest extends TestCase

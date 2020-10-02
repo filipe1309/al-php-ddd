@@ -2,12 +2,12 @@
 
 require 'vendor/autoload.php';
 
-use Alura\Arquitetura\Dominio\Aluno\Aluno;
-use Alura\Arquitetura\Dominio\PublicadorDeEvento;
-use Alura\Arquitetura\Dominio\Aluno\LogDeAlunoMatriculado;
-use Alura\Arquitetura\Infra\Aluno\RepositorioDeAlunoEmMemoria;
-use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
-use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
+use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
+use Alura\Arquitetura\Academico\Dominio\PublicadorDeEvento;
+use Alura\Arquitetura\Academico\Dominio\Aluno\LogDeAlunoMatriculado;
+use Alura\Arquitetura\Academico\Infra\Aluno\RepositorioDeAlunoEmMemoria;
+use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
+use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
 
 $cpf    = $argv[1];
 $nome   = $argv[2];
