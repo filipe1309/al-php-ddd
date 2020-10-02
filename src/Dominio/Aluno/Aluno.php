@@ -26,8 +26,13 @@ class Aluno
         $this->telefones = [];
     }
 
-    public function adicionarTelefone($ddd, $numero)
+    public function adicionarTelefone($ddd, $numero): self
     {
+        // Invariancia = regra entre um relacionamento
+        if (count($this->telefones) === 2) {
+            throw new AlunoCom2TelefonesException();
+        }
+
         $this->telefones[] = new Telefone($ddd, $numero);
         return $this;
     }
