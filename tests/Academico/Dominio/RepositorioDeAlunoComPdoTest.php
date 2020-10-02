@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\Tests\Dominio;
+namespace Alura\Arquitetura\Tests\Academico\Dominio;
 
 use Alura\Arquitetura\Academico\Dominio\Cpf;
 use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;

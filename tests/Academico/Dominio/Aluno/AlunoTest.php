@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\Tests\Dominio\Aluno;
+namespace Alura\Arquitetura\Tests\Academico\Dominio\Aluno;
 
 use PHPUnit\Framework\TestCase;
 use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
