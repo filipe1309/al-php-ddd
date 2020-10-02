@@ -1,8 +1,10 @@
 <?php
 
-namespace Alura\Arquitetura\Infra\Selo;
+namespace Alura\Arquitetura\Gamificacao\Infra\Selo;
 
-use Alura\Arquitetura\Dominio\Cpf;
+use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Gamificacao\Dominio\Selo\Selo;
+use Alura\Arquitetura\Gamificacao\Dominio\Selo\RepositorioDeSelo;
 
 class RepositorioDeSeloEmMemoria implements RepositorioDeSelo
 {
