@@ -3,6 +3,7 @@
 namespace Alura\Arquitetura\Dominio\Aluno;
 
 use Alura\Arquitetura\Dominio\Cpf;
+use Alura\Arquitetura\Dominio\Evento;
 
 class AlunoMatriculado implements Evento
 {
