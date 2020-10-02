@@ -3,8 +3,8 @@
 namespace Alura\Arquitetura\Academico\Dominio\Aluno;
 
 use Alura\Arquitetura\Shared\Dominio\Cpf;
-use Alura\Arquitetura\Academico\Dominio\OuvinteDeEvento;
-use Alura\Arquitetura\Academico\Dominio\Evento;
+use Alura\Arquitetura\Shared\Dominio\Evento\OuvinteDeEvento;
+use Alura\Arquitetura\Shared\Dominio\Evento\Evento;
 
 class LogDeAlunoMatriculado extends OuvinteDeEvento
 {
@@ -21,5 +21,4 @@ class LogDeAlunoMatriculado extends OuvinteDeEvento
     {
         return $evento instanceof AlunoMatriculado;
     }
-
 }
