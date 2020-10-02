@@ -4,6 +4,7 @@ namespace Alura\Arquitetura\Tests\Aplicacao\Aluno;
 
 use PHPUnit\Framework\TestCase;
 use Alura\Arquitetura\Dominio\Cpf;
+use Alura\Arquitetura\Dominio\PublicadorDeEvento;
 use Alura\Arquitetura\Infra\Aluno\RepositorioDeAlunoEmMemoria;
 use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
 use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
@@ -15,7 +16,7 @@ class MatricularAlunoTest extends TestCase
         // Arrange
         $dadosAluno = new MatricularAlunoDto('012.345.678-90', 'Teste', 'aluno@test.com');
         $repositorioDeAluno = new RepositorioDeAlunoEmMemoria();
-        $useCase = new MatricularAluno($repositorioDeAluno);
+        $useCase = new MatricularAluno($repositorioDeAluno, new PublicadorDeEvento());
         
         // Act
         $useCase->executa($dadosAluno);
