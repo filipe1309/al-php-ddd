@@ -2,7 +2,7 @@
 
 namespace Alura\Arquitetura\Tests\Academico\Dominio;
 
-use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Shared\Dominio\Cpf;
 use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Academico\Infra\Aluno\RepositorioDeAlunoComPdo;
 use PHPUnit\Framework\TestCase;

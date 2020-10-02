@@ -4,7 +4,8 @@ namespace Alura\Arquitetura\Tests\Academico\Dominio\Aluno;
 
 use PHPUnit\Framework\TestCase;
 use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
-use Alura\Arquitetura\Academico\Dominio\{ Cpf, Email };
+use Alura\Arquitetura\Shared\Dominio\Cpf;
+use Alura\Arquitetura\Academico\Dominio\Email;
 use Alura\Arquitetura\Academico\Dominio\Aluno\AlunoCom2TelefonesException;
 
 class AlunoTest extends TestCase

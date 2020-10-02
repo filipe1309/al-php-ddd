@@ -3,7 +3,7 @@
 namespace Alura\Arquitetura\Tests\Academico\Aplicacao\Aluno;
 
 use PHPUnit\Framework\TestCase;
-use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Shared\Dominio\Cpf;
 use Alura\Arquitetura\Academico\Dominio\PublicadorDeEvento;
 use Alura\Arquitetura\Academico\Infra\Aluno\RepositorioDeAlunoEmMemoria;
 use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
