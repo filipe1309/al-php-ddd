@@ -1,0 +1,13 @@
+<?php
+
+namespace Alura\Arquitetura\Dominio\Aluno;
+
+use Alura\Arquitetura\Dominio\Cpf;
+
+class AlunoCom2TelefonesException extends \DomainException
+{
+    public function __construct()
+    {
+        parent::__construct('Aluno ja tem 2 telefones, nao eh possivel add outro.');
+    }
+} 
